@@ -25,7 +25,7 @@ function currentLine(line){
   }else{
     for(i=0;i<arrayLength;i++){
       counter = i +1;
-      lineMembers = lineMembers + counter + "." + array[i];
+      lineMembers = lineMembers + counter + "." + line[i];
       if(counter<arrayLength){
         lineMembers = lineMembers + ",";
       }
