@@ -30,5 +30,6 @@ function currentLine(line){
         lineMembers = lineMembers + ",";
       }
     }
+    return lineMembers;
   }
 }
