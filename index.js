@@ -17,13 +17,15 @@ function nowServing(array){
 
 function currentLine(line){
   var i=0;
+  var counter;
   var lineMembers = "The line is currently: ";
   var arrayLength=line.length;
   if (arrayLength==0){
     return "The line is currently empty."
   }else{
     for(i=0;i<arrayLength;i++){
-      lineMembers = lineMembers +
+      counter = i +1;
+      lineMembers = lineMembers + counter + "." + array[i];
     }
   }
 }
